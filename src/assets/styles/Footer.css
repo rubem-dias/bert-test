@@ -1,0 +1,72 @@
+
+footer {
+    background-color: rgba(34,31,33,255);
+}
+
+.col.first-col.text-center {
+    padding-top: 60px;
+}
+
+.col.first-col.text-start > .logo-footer {
+    font-family: 'Roboto';
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.6em;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+
+.row.d-flex.text-center {
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+ ul > li {
+    list-style: none;
+    text-decoration: none;
+    line-height: 2;
+}
+
+.highlight-footer {
+    font-weight: 1000;
+}
+
+.fa.fa-instagram, .fa.fa-facebook-square {
+    font-size: 2em;
+    color: red;
+
+}
+
+.col.col-last p:first-child{
+    font-weight: 1000;
+    margin-top: -3px;
+    text-align: justify;
+}
+
+.col.col-last p:nth-child(2) {
+    text-align:justify;
+    text-transform: initial;
+}
+
+.col.col-last p:last-of-type {
+    color: rgba(254,220,139,255);
+    text-align: justify;
+}
+
+.fa.fa-phone-alt {
+    color: red;
+}
+
+.container-fluid.px-0.footer-black {
+    background-color: black;
+}
+
+div > div > div > small > a, div > div > div small {
+    color: white;
+    opacity: 0.6;
+    font-size: 0.8em;
+}

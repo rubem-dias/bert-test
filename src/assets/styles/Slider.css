@@ -1,0 +1,101 @@
+/* Only slider style section */
+
+.slider {
+    position: relative;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    min-width: 100vw;
+}
+
+.image {
+    min-width: 100vw;
+    height: 600px;
+}
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    font-size: 3rem;
+    color: rgb(214, 214, 214);
+    z-index: 1;
+    cursor: pointer;
+    user-select: none;
+}
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    font-size: 3rem;
+    color: rgb(231, 222, 222);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Overide title and description section */
+
+.over {
+    position: relative;
+    float: right;
+    margin-top: -550px;
+    z-index: 1000;
+    color: white;
+}
+
+div > .title {
+    color: rgb(255, 255, 255);
+    text-align: right;
+    margin-right: 200px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+div > p.overTitle {
+    color: rgb(247, 247, 247);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin-left: -700px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2.0em;
+    font-weight: 1000;
+}
+
+div > p.description-one {
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: -700px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    width: 500px;
+    font-size: 1.1em;
+}
+
+div > p.description-two {
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: -700px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    width: 500px;
+    font-size: 1.1em;
+    text-align-last: end;
+    padding: 1px 5px 5px 9px;
+}
+
+div > button.budget {
+    background-color: rgba(254,220,139,255);
+    margin-left: -550px;
+    margin-top: 30px;
+    width: 350px;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+}

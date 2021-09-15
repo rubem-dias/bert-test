@@ -1,0 +1,95 @@
+.form-block {
+    background-image: url('https://vitaminfactory.com.br/wp-content/uploads/2021/08/7b337f09afbd97d0b5e3b4c4925b8918.jpg');
+    background-size: 100vw;
+}
+
+.text-section {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    font-size: 2.5em;
+    padding-top: 100px;
+    text-transform: uppercase;
+    margin-left: 250px;
+    line-height: 1.1;
+}
+
+span.red-p {
+    color:red;
+}
+
+p.sub-text {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.1;
+    margin-left: 250px;
+    padding-bottom: 60px;
+    margin-top: 40px;
+}
+
+.form-row-s {
+    margin-left: 50%;
+    display: inline-flex;
+    margin-top: -350px;
+    position: absolute;
+    justify-content: space-evenly;
+}
+
+div.form-row-s > div > label {
+    color: rgb(255, 255, 255);
+}
+
+div.form-row-s > div > label::after {
+    content: " *";
+    color: red;
+}
+
+.form-row-sec {
+    margin-left: 52.3%;
+    display: flex;
+    margin-top: -280px;
+    position: absolute;
+}
+
+div.form-row-sec > div > label::after {
+    content: " *";
+    color: red;
+}
+
+div.form-row-sec > div > label {
+    color: rgb(255, 255, 255);
+}
+
+.form-row-th {
+    margin-left: 50%;
+    display: flex;
+    margin-top: -200px;
+    position: absolute;
+    justify-content: space-evenly;
+}
+
+div.form-row-th > div > label::after {
+    content: " *";
+    color: red;
+}
+
+div.form-row-th > div > label {
+    color: rgb(255, 255, 255);
+}
+
+.sendRegister {
+    min-width: 30vw;
+    padding: 10px;
+    float: right;
+    margin-right: 20%;
+    margin-top: -100px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 800;
+}

@@ -1,0 +1,12 @@
+:root {
+    --cream-text: #febe86;
+    --up-bar: #c10102;
+    --nav-bar: #fe0000;
+    --white-color: #fff;
+    --cream-light: #ffdd89;   
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}

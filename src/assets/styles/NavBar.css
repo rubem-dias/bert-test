@@ -1,0 +1,126 @@
+
+/* ----------- Dark Red header section ---------- */
+
+ul.up-header > li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: var(--cream-light);
+    font-size: 0.8em;
+    margin-top: 2px;
+    font-weight: 700;
+
+}
+
+.up-side {
+    background-color: rgb(165, 37, 28);
+    display: flex;
+    justify-content: flex-end;
+    height: 41px;
+    overflow: hidden;
+    border: none;
+}
+
+ul.up-header > li:last-child {
+    margin-right: 15vw;
+}
+
+ul.up-header > li:first-child {
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.circle.fa.fa-circle {
+    color: white;
+    font-size: 5px;
+}
+
+.fa {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fa.fa-arrow-right {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+.noPadding {
+    padding: 0 !important;
+}
+
+/* ------------- Light Red Section Nav ------------*/
+
+.row .red-light-nav {
+    background-color: red;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+}
+
+.row .red-light-nav ul li, .row .red-light-nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.row .red-light-nav h1 {
+    margin-top: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+i.fa.fa-search {
+    color: rgb(243, 1, 1);
+}
+
+div.square {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* ------------- Header Query  --------------*/
+
+@media screen and (min-width: 150px) and (max-width: 499px) {
+    .up-side {
+        display: none;
+    }
+}
+@media screen and (min-width: 504px) and (max-width: 996px) {
+        ul.up-header > li {
+            display: inline-block;
+            padding: 10px 5px;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            color: var(--cream-light);
+            font-size: 0.7em;
+            margin-top: 2px;
+            font-weight: 700;
+            text-align: center;
+        
+    }
+
+    .circle.fa.fa-circle {
+        color: white;
+        font-size: 3px;
+    }
+}

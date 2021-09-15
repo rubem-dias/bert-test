@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d33827c1.chunk.css",
+    "main.js": "/static/js/main.91b87c84.chunk.js",
+    "main.js.map": "/static/js/main.91b87c84.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.015b3588.js",
+    "runtime-main.js.map": "/static/js/runtime-main.015b3588.js.map",
+    "static/css/2.92e24eca.chunk.css": "/static/css/2.92e24eca.chunk.css",
+    "static/js/2.d31c9754.chunk.js": "/static/js/2.d31c9754.chunk.js",
+    "static/js/2.d31c9754.chunk.js.map": "/static/js/2.d31c9754.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.92e24eca.chunk.css.map": "/static/css/2.92e24eca.chunk.css.map",
+    "static/css/main.d33827c1.chunk.css.map": "/static/css/main.d33827c1.chunk.css.map",
+    "static/js/2.d31c9754.chunk.js.LICENSE.txt": "/static/js/2.d31c9754.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/gond1.7e836e48.png": "/static/media/gond1.7e836e48.png",
+    "static/media/gond2.3923540b.png": "/static/media/gond2.3923540b.png",
+    "static/media/gond3.49bd2c76.png": "/static/media/gond3.49bd2c76.png",
+    "static/media/gond4.ad11c32f.png": "/static/media/gond4.ad11c32f.png",
+    "static/media/wpp.1d1a326e.png": "/static/media/wpp.1d1a326e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.015b3588.js",
+    "static/css/2.92e24eca.chunk.css",
+    "static/js/2.d31c9754.chunk.js",
+    "static/css/main.d33827c1.chunk.css",
+    "static/js/main.91b87c84.chunk.js"
+  ]
+}
